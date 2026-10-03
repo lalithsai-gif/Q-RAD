@@ -1,0 +1,40 @@
+{
+  "product": "Q-RAD",
+  "display_name": "Q-RAD \u2014 Quantum Radiology",
+  "task_type": "multi-label radiological finding prediction",
+  "num_findings": 14,
+  "findings": [
+    "Atelectasis",
+    "Cardiomegaly",
+    "Consolidation",
+    "Edema",
+    "Effusion",
+    "Emphysema",
+    "Fibrosis",
+    "Hernia",
+    "Infiltration",
+    "Mass",
+    "Nodule",
+    "Pleural_Thickening",
+    "Pneumonia",
+    "Pneumothorax"
+  ],
+  "image_size": 224,
+  "cnn": "DenseNet-121",
+  "cnn_feature_dimension": 1024,
+  "classical": {
+    "type": "One-vs-Rest Linear SVM",
+    "feature_dimension": 1024
+  },
+  "quantum": {
+    "qubits": 4,
+    "reps": 2,
+    "feature_map": "ZZ Feature Map",
+    "kernel": "Fidelity Quantum Kernel",
+    "classifier": "QSVC",
+    "models": 14
+  },
+  "qiskit_version": "2.5.2",
+  "qiskit_machine_learning_version": "0.9.1",
+  "seed": 42
+}

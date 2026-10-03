@@ -1,0 +1,16 @@
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+python-multipart==0.0.20
+Pillow==11.3.0
+numpy==2.2.6
+pandas==2.3.1
+scikit-learn==1.6.1
+joblib==1.5.1
+dill==0.3.9
+matplotlib==3.10.3
+torch>=2.5.0,<2.9.0
+torchvision>=0.20.0,<0.24.0
+qiskit==2.5.2
+qiskit-machine-learning==0.9.1
+qiskit-aer==0.17.2
+pylatexenc==2.10

@@ -1,0 +1,122 @@
+{
+  "classical_svm": {
+    "val_macro_roc_auc": 0.6435575752647321,
+    "val_macro_f1": 0.15595101816095663,
+    "test_macro_roc_auc": 0.6644699793570074,
+    "test_macro_f1": 0.14432192206862107
+  },
+  "quantum_qsvc": {
+    "Atelectasis": {
+      "train_samples": 80,
+      "test_samples": 40,
+      "fit_seconds": 40.07470464706421,
+      "accuracy": 0.575,
+      "f1": 0.5405405405405406,
+      "roc_auc": 0.5625
+    },
+    "Cardiomegaly": {
+      "train_samples": 80,
+      "test_samples": 40,
+      "fit_seconds": 20.21516752243042,
+      "accuracy": 0.475,
+      "f1": 0.46153846153846156,
+      "roc_auc": 0.4875
+    },
+    "Consolidation": {
+      "train_samples": 80,
+      "test_samples": 40,
+      "fit_seconds": 20.396900177001953,
+      "accuracy": 0.6,
+      "f1": 0.5294117647058824,
+      "roc_auc": 0.56
+    },
+    "Edema": {
+      "train_samples": 80,
+      "test_samples": 40,
+      "fit_seconds": 19.711045742034912,
+      "accuracy": 0.475,
+      "f1": 0.5116279069767442,
+      "roc_auc": 0.45999999999999996
+    },
+    "Effusion": {
+      "train_samples": 80,
+      "test_samples": 40,
+      "fit_seconds": 19.91480278968811,
+      "accuracy": 0.5,
+      "f1": 0.47368421052631576,
+      "roc_auc": 0.3875
+    },
+    "Emphysema": {
+      "train_samples": 80,
+      "test_samples": 40,
+      "fit_seconds": 19.984636068344116,
+      "accuracy": 0.375,
+      "f1": 0.4186046511627907,
+      "roc_auc": 0.35500000000000004
+    },
+    "Fibrosis": {
+      "train_samples": 80,
+      "test_samples": 40,
+      "fit_seconds": 20.068998098373413,
+      "accuracy": 0.3,
+      "f1": 0.3,
+      "roc_auc": 0.26
+    },
+    "Hernia": {
+      "train_samples": 58,
+      "test_samples": 26,
+      "fit_seconds": 10.374203443527222,
+      "accuracy": 0.7307692307692307,
+      "f1": 0.0,
+      "roc_auc": 0.5583333333333333
+    },
+    "Infiltration": {
+      "train_samples": 80,
+      "test_samples": 40,
+      "fit_seconds": 20.00777816772461,
+      "accuracy": 0.65,
+      "f1": 0.6111111111111112,
+      "roc_auc": 0.6225
+    },
+    "Mass": {
+      "train_samples": 80,
+      "test_samples": 40,
+      "fit_seconds": 19.82815718650818,
+      "accuracy": 0.55,
+      "f1": 0.5263157894736842,
+      "roc_auc": 0.56
+    },
+    "Nodule": {
+      "train_samples": 80,
+      "test_samples": 40,
+      "fit_seconds": 19.635868310928345,
+      "accuracy": 0.65,
+      "f1": 0.5882352941176471,
+      "roc_auc": 0.7050000000000001
+    },
+    "Pleural_Thickening": {
+      "train_samples": 80,
+      "test_samples": 40,
+      "fit_seconds": 19.722151517868042,
+      "accuracy": 0.35,
+      "f1": 0.35,
+      "roc_auc": 0.32
+    },
+    "Pneumonia": {
+      "train_samples": 80,
+      "test_samples": 40,
+      "fit_seconds": 19.631673574447632,
+      "accuracy": 0.525,
+      "f1": 0.4864864864864865,
+      "roc_auc": 0.5974999999999999
+    },
+    "Pneumothorax": {
+      "train_samples": 80,
+      "test_samples": 40,
+      "fit_seconds": 19.760709047317505,
+      "accuracy": 0.475,
+      "f1": 0.5116279069767442,
+      "roc_auc": 0.38250000000000006
+    }
+  }
+}
